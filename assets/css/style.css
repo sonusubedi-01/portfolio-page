@@ -57,3 +57,24 @@ body {
     text-decoration: none;
     border-bottom: 2px solid var(--primary-color)
   }
+
+.hero-image-background {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+  }
+
+.hero-figure {
+    position: relative;
+  }
+
+.hero-figure figcaption {
+    background-color: var(--primary-color);
+    position: absolute;
+    bottom: 50px;
+    right: 25px;
+    padding: 10px;
+    font-size: var(--font-size)
+  }
