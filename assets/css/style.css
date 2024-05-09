@@ -153,5 +153,25 @@ main {
     background-size: cover;
     background-position: center;
     object-fit: cover;
-  }
-  
+}
+
+@media screen and (max-width : 768px) {
+    .main-section {
+        flex-direction: column;
+    }
+
+    main {
+        margin: 0 25px;
+    }
+
+    .main-section-item-2-address {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .main-section-item-2-work figure,
+    .main-section-item-2-work figure:first-child {
+        height: 300px;
+        flex: 1 0 90%;
+    }
+}
