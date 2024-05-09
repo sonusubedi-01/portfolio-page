@@ -14,7 +14,7 @@ body {
     --secondary-color: rgb(46 51 51);
     --primary-color: rgb(121 234 234);
     --font-size: 21px;
-  }
+}
 
 .nav-bar {
     display: flex;
@@ -23,7 +23,7 @@ body {
     padding-top: 15px;
     font-size: var(--font-size);
     background-color: var(--secondary-color);
-  }
+}
 
 .avatar-name {
     text-decoration: none;
@@ -32,31 +32,31 @@ body {
     margin-bottom: 7px;
     padding-right: 10px;
     font-size: 1.5rem;
-  }
+}
 
 .avatar {
     vertical-align: middle;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-  }
+}
 
 .nav-bar ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-  }
-  
+}
+
 .nav-bar ul li {
     margin-left: 25px;
     margin-right: 25px;
-  }
-  
+}
+
 .nav-link {
     color: var(--primary-color);
     text-decoration: none;
     border-bottom: 2px solid var(--primary-color)
-  }
+}
 
 .hero-image-background {
     height: 200px;
@@ -64,11 +64,11 @@ body {
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
-  }
+}
 
 .hero-figure {
     position: relative;
-  }
+}
 
 .hero-figure figcaption {
     background-color: var(--primary-color);
@@ -77,4 +77,81 @@ body {
     right: 25px;
     padding: 10px;
     font-size: var(--font-size)
+}
+
+main {
+    margin: 0 135px;
+}
+
+.main-section {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.main-section-item-1 {
+    flex: 10%;
+    padding: 10px;
+    color: var(--secondary-color);
+}
+
+.main-section-item-2 {
+    flex: 90%;
+    padding: 10px;
+    border-left: 3px solid var(--secondary-color);
+    font-size: var(--font-size);
+}
+
+.main-section-item-2-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-section-item-2-work figure {
+    position: relative;
+    flex: 1 0 auto;
+    height: 445px;
+    width: 500px;
+    overflow: hidden;
+    border: 4px solid var(--primary-color);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.main-section-item-2-work figure:first-child {
+    flex-basis: 90%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.main-section-item-2-address {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-section-item-2-address a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    border-bottom: 2px solid var(--secondary-color);
+    margin-bottom: 25px;
+    font-style: normal;
+}
+
+.main-section-item-2-work figcaption {
+    background-color: var(--primary-color);
+    position: absolute;
+    bottom: 18px;
+    padding: 10px;
+}
+
+.work-section-stack{
+    font-size: 14px;
+}
+
+.main-section-item-2-work img {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
   }
+  
