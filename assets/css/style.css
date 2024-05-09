@@ -10,6 +10,7 @@ body {
     background-color: gainsboro;
 }
 
+/* Variables for common styles */
 :root {
     --secondary-color: rgb(46 51 51);
     --primary-color: rgb(121 234 234);
@@ -155,6 +156,7 @@ main {
     object-fit: cover;
 }
 
+/* Styles for mobile devices */
 @media screen and (max-width : 768px) {
     .main-section {
         flex-direction: column;
