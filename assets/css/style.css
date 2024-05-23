@@ -121,7 +121,7 @@ main {
 
 .main-section-item-2-work figure:first-child {
     flex-basis: 90%;
-    height: 500px;
+    height: 700px;
     overflow: hidden;
 }
 
@@ -171,9 +171,13 @@ main {
         gap: 10px;
     }
 
-    .main-section-item-2-work figure,
-    .main-section-item-2-work figure:first-child {
+    .main-section-item-2-work figure{
         height: 300px;
+        flex: 1 0 90%;
+    }
+
+    .main-section-item-2-work figure:first-child {
+        height: 500px;
         flex: 1 0 90%;
     }
 }
